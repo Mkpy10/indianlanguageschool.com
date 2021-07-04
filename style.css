@@ -1,0 +1,110 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+  }
+
+  .navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 0px;
+    top: 0px;
+    padding-left: 10px;
+  }
+
+  .navbar a:hover{
+      background: #ddd;
+      color: black;
+  }
+
+  #marqueeStyle{
+      color: white;
+  }
+
+  body{
+    background-color: lightskyblue;
+    text-align: center;
+  }
+
+  #About{
+    margin-top: 20px;
+  }
+
+#image{
+  transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+#image:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#manchester{
+  font-weight: bold;
+}
+
+#image2{
+  transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+#image2:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#music{
+  font-weight: bold;
+}
+
+#vir{
+  font-weight: bold;
+}
+
+#vir_das{
+  transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+#vir_das:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+#achievementsID{
+  padding-bottom: 10px;
+}
+
+.movie_head{
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+}
+
+.movie_head i{
+  float: right;
+}
+
+.movie_head span{
+  color: #ff7700;
+}
+
+#achievement2{
+  font-size: 20px;
+  padding: 6px 22px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+}
